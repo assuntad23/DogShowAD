@@ -1,4 +1,4 @@
-package com.example.shaun.dogshow2;
+package com.example.shaun.dogshowad;
 
 import org.junit.Test;
 
