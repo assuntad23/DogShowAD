@@ -1,9 +1,10 @@
 package com.example.shaun.dogshowad;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class AddContestant extends AppCompatActivity {
+public class AddContestant extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

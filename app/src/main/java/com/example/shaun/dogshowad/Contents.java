@@ -1,9 +1,10 @@
 package com.example.shaun.dogshowad;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Contents extends AppCompatActivity {
+public class Contents extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
