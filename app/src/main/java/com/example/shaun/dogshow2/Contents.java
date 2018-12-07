@@ -3,7 +3,7 @@ package com.example.shaun.dogshow2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class contents extends AppCompatActivity {
+public class Contents extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

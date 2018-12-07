@@ -36,7 +36,7 @@ public class LoginPage extends AppCompatActivity {
                 if(userName.getText().toString().equals("admin") &&
                         passWord.getText().toString().equals("pissword"))
                 {
-                    //Intent intent  = new Intent(this, contents.class);
+                    //Intent intent  = new Intent(this, Contents.class);
                     //startActivity(intent);
                     Log.d(TAG, "onClick: Button pressed!");
                 }
