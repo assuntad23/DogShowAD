@@ -1,4 +1,4 @@
-package com.example.shaun.dogshow2;
+package com.example.shaun.dogshowad;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

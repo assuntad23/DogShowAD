@@ -1,4 +1,4 @@
-package com.example.shaun.dogshow2;
+package com.example.shaun.dogshowad;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
