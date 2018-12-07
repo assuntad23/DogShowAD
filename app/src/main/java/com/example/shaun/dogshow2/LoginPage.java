@@ -34,7 +34,7 @@ public class LoginPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(userName.getText().toString().equals("admin") &&
-                        passWord.getText().toString().equals("pissword"))
+                        passWord.getText().toString().equals("password"))
                 {
                     //Intent intent  = new Intent(this, Contents.class);
                     //startActivity(intent);
