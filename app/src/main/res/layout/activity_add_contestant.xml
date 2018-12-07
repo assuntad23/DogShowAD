@@ -7,7 +7,7 @@
     tools:context="com.example.shaun.dogshowad.AddContestant">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/categories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.459" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/uploadPhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -39,14 +39,14 @@
         app:layout_constraintVertical_bias="0.114" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/dogName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Name"
+        android:text="Dog Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.024"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.217" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/aboutMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -71,7 +71,7 @@
         app:layout_constraintVertical_bias="0.786" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/owners"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.64" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/uniqueID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.324" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editDogName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -121,46 +121,42 @@
         app:layout_constraintVertical_bias="0.171" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/socializationCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="232dp"
+        android:layout_marginBottom="240dp"
         android:text="Socialization"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
-        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintEnd_toStartOf="@+id/fetchCheckBox"
+        app:layout_constraintHorizontal_bias="0.845"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/fetchCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="240dp"
         android:text="Fetch"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox7"
+        android:id="@+id/groomingCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="48dp"
         android:text="Grooming"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/fetchCheckBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/obedienceCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -168,10 +164,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Obedience"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox2"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox7"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/socializationCheckBox"
+        app:layout_constraintEnd_toStartOf="@+id/groomingCheckBox"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.979" />
 </android.support.constraint.ConstraintLayout>
