@@ -28,7 +28,7 @@ public class Contents extends Activity {
         createEvent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CreateEvent.class);
+                Intent intent = new Intent(getApplicationContext(), AddContestant.class);
                 startActivity(intent);
                 Log.d(TAG, "Starting the CreateEvent Activity!");
             }

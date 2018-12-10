@@ -20,4 +20,5 @@
         <activity android:name="com.example.shaun.dogshowad.AddContestant"/>
     </application>
 
+
 </manifest>
