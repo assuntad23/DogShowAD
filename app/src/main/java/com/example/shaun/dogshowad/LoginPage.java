@@ -1,6 +1,7 @@
 package com.example.shaun.dogshowad;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -37,8 +38,8 @@ public class LoginPage extends Activity {
                 if(userName.getText().toString().equals("admin") &&
                         passWord.getText().toString().equals("password"))
                 {
-                    //Intent intent  = new Intent(this, Contents.class);
-                    //startActivity(intent);
+                    Intent intent  = new Intent(getApplicationContext(), Contents.class);
+                    startActivity(intent);
                     Log.d(TAG, "onClick: Button pressed!");
                 }
             }
