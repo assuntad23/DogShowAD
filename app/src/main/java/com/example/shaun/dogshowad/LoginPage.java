@@ -27,9 +27,9 @@ public class LoginPage extends Activity {
         setContentView(R.layout.activity_login_page);
 
         //Initializing the buttons here. We must do it here so that the compiler knows what they are.
-        loginButton = (Button) findViewById(R.id.loginButton);
-        userName = (EditText) findViewById(R.id.username);
-        passWord = (EditText) findViewById(R.id.password);
+        loginButton = findViewById(R.id.loginButton);
+        userName = findViewById(R.id.username);
+        passWord = findViewById(R.id.password);
 
         //This sets the listener for the button so we can use the login button to login.
         loginButton.setOnClickListener(new View.OnClickListener() {
